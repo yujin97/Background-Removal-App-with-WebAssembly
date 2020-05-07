@@ -1,0 +1,66 @@
+body {
+	color: #000;
+	font-family: 'sans-serif';
+  background: linear-gradient(to left, rgb(192, 222, 202), rgb(207, 253, 126) 100%);
+}
+
+h2{
+	text-align: center;
+}
+
+video, #output, #headAR1, #eyeAR1, #maskAR1 {
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+
+.outputContainer {
+	display: flex;
+	justify-content: center;
+}
+
+#dropback {
+	display:none;
+}
+
+#headAR1, #eyeAR1, #maskAR1 {
+	display:none;
+}
+
+#output {
+	height: 480px;
+	position: absolute;
+	z-index:-1;
+}
+
+#outputPair {
+	position: relative;
+	width: 640px;
+	height: 480px;
+}
+
+#stats {
+	z-index:2;
+}
+
+#controlPanelContainer {
+	display: flex;
+	justify-content: center;
+}
+
+#controlPanel {
+	border: 1px solid #ccc!important;
+	padding: 0.01em 16px;
+	border-radius: 16px;
+	display: inline-flex;
+	justify-content: center;
+} 
+
+#fileSelector {
+	border: 1px solid #ccc!important;
+	padding: 0.01em 16px;
+	border-radius: 16px;
+}
+
+#fileSelector p {
+	color: blue;
+}

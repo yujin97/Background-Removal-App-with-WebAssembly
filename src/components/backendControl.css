@@ -1,0 +1,10 @@
+#backendControl {
+	border: 1px solid #ccc!important;
+	padding: 0.01em 16px;
+	border-radius: 16px;
+	justify-content: center;
+}
+
+p {
+	color: blue;
+}
